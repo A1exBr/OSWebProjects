@@ -57,11 +57,13 @@ body{
     height: 3px;
     background-color: black;
     transition: 0.3s ease all;
+    border-radius: 50px;
 }
 
 .navbar a:hover::before{
     width: 100%;
     transition: 0.15s ease all;
+    border-radius: 50px;
 }
 
 .navbar a:hover{
