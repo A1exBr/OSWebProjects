@@ -43,6 +43,8 @@ input{
     display: none;
 }
 
+/* REMOVE EVERTHING BELOW TO GET RID OF THE ANIMATION */
+
 input:checked + .button::before{
     transform: translateX(100px);
     animation-name: toggle;
